@@ -37,9 +37,21 @@ console.log(result) // -1
 
 **/
 
-
+// first idea
+// if (a > b){
+// 	alert("true");
+// } else if (a < b){
+// 	alert("false");
+// } else {
+// 	alert("0");
+// }
 
 function isBigger(a, b) {
-	//Your code here
+if (a > b){
+	return true;
+} else if (a < b){
+	return false;
+} else {
+	return 0}
 	
 }
