@@ -16,7 +16,21 @@
 			 </ul>
 			 <button id="lib-button">Lib it!</button>
 			  
-			 <div id="story"></div>  
+			 <div id="story"></div> 
+			 <!-- add jquery library  -->
+			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			 
+			 <script>
+			// create a click event (two was to do this)
+			$("#lib-button").on("click", function(){
+				var noun = $("#noun").val();
+				var adjective = $("#adjective").val();
+				var person = $("#person").val();
+				$("#story").append("<p>" + person + " likes " + adjective + " " + noun + "<p>");
+			})
+			// create a function that stores the users input values
+			// create the sentence for the user and append it to the div (aka adding it to the DOM)
+			 </script>
 		</body>
 	</html>
 	
