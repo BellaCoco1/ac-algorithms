@@ -34,6 +34,10 @@ console.log(result) // "ghimmnorstyy"
 **/
 
 function alphabetSoup(str) {
-	//Your code here
-	
+var newstring = str.split('').sort().join('');
+return newString;	
 }
+
+
+var result = alphabetSoup("Happy Holidays to all!");
+console.log(result);
