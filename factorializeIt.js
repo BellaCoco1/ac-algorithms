@@ -7,8 +7,21 @@
 
 // Check out Arithmetic Operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
 
+//need loop, the loop starts with one and ends at num, we want the loop to increase each time by one (aka 1++)
+
+//need a variable to store the final answer
+
+//need a multiplier to increase the final answer but multiplying the number each time (sum = sum + 1)
+
+
 function factorializeIt(num) {
-  //your code here
+  var result = 1;
+  for (var i = 1; i <= num; i++){
+    result = result * i;
+  //console.log(i);
+}
+return result;
 }
 
 factorializeIt(5);
+factorializeIt(10);
