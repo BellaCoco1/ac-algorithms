@@ -51,7 +51,7 @@ function dashInsert(number) {
 	// this was all wrong -- for (number % 2 === 1); {
 	}
 console.log(output);
-}
+
 
 var result = dashInsert(454793);
 console.log(result)
